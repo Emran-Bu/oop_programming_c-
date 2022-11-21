@@ -9,7 +9,7 @@ public:
     double circle_area(double n)
     {
         r = n;
-        double area = 3.14*n*n;
+        double area = 3.14*r*r;
         cout<<"Radius id = "<<r<<endl;
         cout<<"Area is = "<<area;
     }
